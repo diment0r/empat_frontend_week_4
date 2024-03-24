@@ -1,0 +1,11 @@
+@import "utils/fonts", "utils/reset", "utils/variables", "utils/utils";
+
+@import "blocks/button", "blocks/section-header", "blocks/header",
+  "blocks/banner", "blocks/why-section", "blocks/trust-section",
+  "blocks/companies-section", "blocks/stay-section", "blocks/footer",
+  "blocks/bottom";
+
+body {
+  font-family: var(--font-family-base);
+  font-weight: 400;
+}
